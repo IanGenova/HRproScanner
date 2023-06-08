@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HRPro Scanner</string>
+    <string name="demo_text">STATUS</string>
+    <string name="employment_status">EMPLOYMENT STATUS</string>
+    <string name="id_number">ID Number</string>
+    <string name="position">Position</string>
+    <string name="name">Name</string>
+    <string name="navigation_drawer_open">OPEN NAV</string>
+    <string name="navigation_drawer_close">CLOSE NAV</string>
+
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rtmi"
+    tools:context=".scannerView">
+
+    <TextView
+        android:id="@+id/scantext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:background="#78F4F4"
+        android:text="@string/demo_text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="228dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="36dp"
+        android:paddingRight="2dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="261dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/name"
+        android:background="#FFFFFF"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="205dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/position"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <TextView
+        android:id="@+id/branch"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:text="Branch"
+        android:background="#FFFFFF"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/position" />
+
+    <TextView
+        android:id="@+id/idnum"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="@string/id_number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/branch" />
+    <TextView
+        android:id="@+id/emplstatus"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="Employment Status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintLeft_toRightOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/idnum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

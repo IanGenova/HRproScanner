@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Passes Scanner" />
+    <item
+        android:id="@+id/nav_gallery"
+        android:title="Payroll" />
+    <item
+        android:id="@+id/scanbtn"
+        android:title="ID Scanner" />
+</menu>

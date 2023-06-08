@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8E24AA</color>
+    <color name="colorPrimaryDark">#111013</color>
+    <color name="colorAccent">#95060D</color>
+    <color name="activeColor">#026A02</color> <!-- Green color for active status -->
+    <color name="inactiveColor">#FF0000</color>
+    <color name="backgroundColor">#138BEA</color><!-- Red color for inactive status -->
+</resources>
